@@ -4,6 +4,8 @@ spring:
     password: mysql
     url: jdbc:mysql://192.168.159.1:3306/jdbc?serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
-#    schema:
-#      - classpath:sql/department.sql
+    schema:
+      - classpath:sql/department.sql
+      - classpath:sql/employee.sql
+
 
